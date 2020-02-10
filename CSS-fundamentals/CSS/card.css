@@ -1,0 +1,33 @@
+
+/* Used the "auto" value for the left/right margin in order to horizontally
+center my 560px width card */
+.card {
+    background: #000;
+    color: white;
+    width: 560px;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+/* This selector targets typography elements and defines their top margin
+ to be 0. This allows the padding on its parent element to dictate the spacing.
+ Since it is global, I placed it above the typography-specific element selectors for
+ organization purposes */
+h1, p {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Spacing the links further from the p type than the p type is to the h1.
+Removing margin-bottom so as to override that default margin. */
+.links {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
