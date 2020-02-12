@@ -1,0 +1,75 @@
+/* --- Block elements --- */
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+   background-color: #f1f1f1;
+   width: 450px;
+   margin: 0 auto;
+   padding: 25px; 
+}
+
+footer {
+    width: 500px;
+    margin: 25px auto 0;
+    padding-left: 15px;
+}
+
+
+/* --- Type elements --- */
+
+h1, h2, p {
+    margin-top: 0;
+    font-family: Helvetica; 
+}
+
+h1 {
+    font-size: 48px;
+    color: #2e7ad3;
+    margin: 45px auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #104c90;
+    margin: 0 0 9px 0;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 0 0 9px 0;
+}
+
+img {
+    width: 450px;
+    margin: 0 0 25px 0;
+}
+
+a {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+a:focus, 
+a:hover {
+    color: #FF8;
+    font-weight: normal;
+}
+
+.inspired {
+    color: firebrick;
+    font-size: 14px;
+}
+
+.cross-link {
+    color: green;
+}
+
+
