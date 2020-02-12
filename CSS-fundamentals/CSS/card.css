@@ -28,15 +28,6 @@ p {
     font-size: 18px;
 }
 
-
-/* Spacing the links further from the p type than the p type is to the h1.
-Removing margin-bottom so as to override that default margin. */
-
-.links {
-    margin-top: 40px;
-    margin-bottom: 0;
-}
-
 strong {
     background: yellow;
     color: black;
@@ -46,17 +37,36 @@ strong {
     color: yellow;
 }
 
+/* Spacing the links further from the p type than the p type is to the h1.
+Removing margin-bottom so as to override that default margin. */
+
+.links {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 
 /* --- Link Pseudoclasses ---  */ 
 
-a:link, a:visited {
+a {
     color: yellow;
 }
 
-a:focus {
+a:focus, 
+a:hover {  
     color: #d9ff00;
 }
 
-a:hover {
-    color: teal;
+
+.button {
+    background-color: #ffe600;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button:focus,
+.button:hover {
+    color: grey;
 }
