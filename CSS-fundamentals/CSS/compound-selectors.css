@@ -1,0 +1,57 @@
+/* --- Element Selectors --- */ 
+
+h1, p {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #FFE600;
+}
+
+/* --- Class Selectors --- */
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-one .btn {
+    color: black;
+    background-color: yellow;
+}
+
+.section-one .btn:focus, 
+.section-one .btn:hover {
+    background-color: orange;
+    text-decoration: underline;    
+}
+
+
+.section-two .btn {
+    color: white;
+    background-color: black;
+}
+
+.section-two .btn:focus,
+.section-two .btn:hover {
+    background-color: gray;
+    text-decoration: underline;
+}
+
+/* --- ID Selectors --- */
+
+
+
+
+
