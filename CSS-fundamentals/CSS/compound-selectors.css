@@ -10,7 +10,7 @@ header {
     border: 2px black solid;
     width: 560px;
     margin: 0 auto;
-    padding: 35px;
+    padding: 45px 35px;
 }
 
 h1, h2, p {
@@ -67,6 +67,7 @@ a:hover {
 .links {
     margin-bottom: 0;
 }
+
 .btn {
     display: inline-block;
     padding: 20px;
@@ -86,6 +87,15 @@ a:hover {
     text-decoration: underline;    
 }
 
+.section-two a {
+    color: darkblue;
+}
+
+.section-two a:focus, 
+.section-two a:hover {
+    color: purple;
+}
+
 
 .section-two .btn {
     color: white;
@@ -98,16 +108,51 @@ a:hover {
     text-decoration: underline;
 }
 
-.section-two a {
-    color: darkblue;
+
+/*  
+
+---- ALT CSS FOR IF I HAD NOT USED COMPOUND SELECTORS FOR BTN CLASSES ----
+
+.btn {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.section-two a:focus, 
-.section-two a:hover {
-    color: purple;
+.btn-yellow {
+    color: black;
+    background-color: yellow;
 }
 
-/* --- ID Selectors --- */
+.btn-black {
+    color: white;
+    background-color: black;
+}
+
+.btn-yellow:focus,
+.btn-yellow:hover {
+    background-color: orange;
+    text-decoration: underline; 
+}
+
+.btn-black:focus,
+.btn-black:hover {
+    background-color: gray;
+    text-decoration: underline;
+}
+
+*/
+
+
+
+
+/* 
+--- 
+ID Selectors 
+--- 
+*/
 
 
 
